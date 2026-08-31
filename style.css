@@ -712,6 +712,9 @@ body {
     .date__of__birth {
         width: 250px !important;
         font-size: 0.9rem;
+        z-index: 10 !important;
+        opacity: 1 !important;
+        visibility: visible !important;
     }
 
     @keyframes dateOfBirth {
