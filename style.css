@@ -715,12 +715,16 @@ body {
         z-index: 10 !important;
         opacity: 1 !important;
         visibility: visible !important;
+        transform: translateY(0px) !important;
+        margin-top: 30px !important;
+        position: static !important;
     }
 
     @keyframes dateOfBirth {
         50%, 100% {
             width: 250px;
             height: 50px;
+            transform: translateY(0px);
         }
     }
 
