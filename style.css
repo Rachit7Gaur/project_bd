@@ -258,6 +258,7 @@ body {
     overflow: hidden;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 6px solid var(--color-black);
 }
 .content .right .image img{
